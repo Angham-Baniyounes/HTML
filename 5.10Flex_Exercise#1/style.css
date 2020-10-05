@@ -3,6 +3,7 @@
     padding: 0;
 }
 .container {
+    font-family: "Times New Roman", Times, serif;
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
@@ -16,6 +17,7 @@
     font-size: 9rem;
     text-align: center;
     justify-content: baseline;
+    text-shadow: 10px 6px 0px #17161612;
 }
 .container div:first-child {
     background-color: #1ABC9C;
