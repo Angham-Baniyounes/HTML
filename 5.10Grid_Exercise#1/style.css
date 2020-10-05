@@ -18,13 +18,13 @@ header {
     font-weight: bold;
     font-size: 1.25rem;
 }
-.three {
-        grid-row-start: 1;
-        grid-row-end: 2;
-      }
-.one {
+.grid-item:first-of-type {
     order: 8;
 }
-.five {
+.grid-item:nth-of-type(5) {
     order: 7;
+}
+.grid-item:nth-of-type(3) {
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
